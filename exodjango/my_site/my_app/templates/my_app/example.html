@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %} 
 
 <p>This is in the middle of the page</p>
+<img src="{% static 'my_app/download.jpeg' %}" alt="my image">
+
 {% endblock content %}
